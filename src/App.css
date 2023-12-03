@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.pro {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.bg {
+  background-color: black;
+  color: #f1f5f9;
+}
+
+.boldClass {
+  font-weight: bold;
+  background-color: black;
+  color: #f1f5f9;
+}
+
+.italicClass {
+  font-style: italic;
+  background-color: black;
+  color: #f1f5f9;
+}
+
+.lineClass {
+  text-decoration: underline;
+  background-color: black;
+  color: #f1f5f9;
+}
+
+.text {
+  background-color: black;
+  color: #f1f5f9;
+}
+
+.active {
+  color: #faff00;
+  background-color: black;
+}
+
+.inactive {
+  color: #f1f5f9;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
